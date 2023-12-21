@@ -49,23 +49,46 @@ nav ul li {
 
 #hero {
     background-image: linear-gradient(to right,rgb(137, 221, 215),rgb(55, 55, 55),rgb(59, 59, 92));
+    /* background-image: url("/My-Portfolio-Files/images/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg"); */
+    /* rotate: 180; */
     height: 300px;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: center, bottom;
+    position: relative;
 }
 
 #subtitle {
     background-color: rgb(137, 221, 215);
     color: rgb(61, 60, 60);
     display: inline-block;
-    float: right;
+    /* float: right; */
     font-size: 35px;
     font-weight: 300;
     padding: 7px;
-    margin-top: 200px;
-    margin-right: 100px;
+    /* margin-top: 200px;
+    margin-right: 100px; */
+    position: absolute;
+    bottom: 1.5rem;
+    right: 5rem;
 }
+
+#profileimage {
+    background-image: url("/My-Portfolio-Files/images/Photo\ Dec\ 21\ 2023\,\ 12\ 05\ 56\ PM.jpg");
+    height: 16rem;
+    width: 13rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 7rem;
+    background-position: center;
+    background-size: contain;
+}
+
+/* main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
 
 a {
     text-decoration: none;
@@ -88,6 +111,8 @@ h2 {
     color: rgb(59, 59, 92);
     font-size: 50px;
     font-weight: 600;
+    /* border: 1px solid black; */
+    align-items: end;
     /* margin-top: 10%; */
     /* float: left; */
 }
@@ -104,6 +129,7 @@ article {
     margin-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    position: relative;
 }
 
 .container {
@@ -118,6 +144,8 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
     
 }
 
@@ -130,6 +158,9 @@ footer {
     padding: 40px;
     /* padding-right: 40px; */
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 footer ul li {
@@ -147,16 +178,137 @@ footer ul li {
     width: 45%;
     height: 8rem;
     margin: 8px;
-    justify-content: space-between;
+    /* justify-content: end; */
 }
 
 #bigbox {
     width: 92%;
-    height: 20rem;
+    height: 22rem;
+    /* background-image: url("01-html-css-git-homework-demo.png"); */
+    background-image: url("/My-Portfolio-Files/images/01-html-css-git-homework-demo.png");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    position: relative;
+}
+
+#mern1 {
+    background-image: url("/My-Portfolio-Files/images/michael-baccin-XopauR-Nagk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+
+#mern2 {
+    background-image: url("/My-Portfolio-Files/images/michael-baccin-XopauR-Nagk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    /* flex-direction: row; */
+}
+
+#node {
+    background-image: url("/My-Portfolio-Files/images/juanjo-jaramillo-mZnx9429i94-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+
+#react {
+    background-image: url("/My-Portfolio-Files/images/gabriel-heinzer-g5jpH62pwes-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
 
 }
 
-h3 + p {
+h3 ~ p {
     background-color: rgb(137, 221, 215);
     display: inline-block;
+    width: 11rem;
+    position: absolute;
+    bottom: 10px;
 }
+
+.container h3 {
+    background-color: rgb(137, 221, 215);
+    display: inline-block;
+    width: 11rem; 
+    position: absolute;
+    bottom: 28.5px;
+}
+
+/* #aboutme {
+   position: relative;
+   top: 6.5rem;
+   left: 7rem;
+
+}
+
+#work {
+   position: relative;
+   top: 16rem;
+   right: -13rem;
+}
+
+#contactme {
+    position: relative;
+    top: 55rem;
+    right: -4rem;
+} */
+
+#aboutme {
+    position: absolute;
+    /* top: 6.5rem; */
+    left: -15rem;
+ 
+ }
+ 
+ #work {
+    position: absolute;
+    /* top: 16rem; */
+    left: -9rem;
+ }
+ 
+ #contactme {
+     position: absolute;
+     top: -4.5px;
+     left: -18rem;
+ }
+
+/* .worktitles {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    margin-top: 10rem;
+} */
+
+#bigbox:hover {
+    opacity: 80%;
+    transition: 0.5s;
+}
+#mern1:hover {
+    opacity: 80%;
+    transition: 0.5s;
+}
+#mern2:hover {
+    opacity: 80%;
+    transition: 0.5s;
+}
+#node:hover {
+    opacity: 80%;
+    transition: 0.5s;
+}
+#react:hover {
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+
