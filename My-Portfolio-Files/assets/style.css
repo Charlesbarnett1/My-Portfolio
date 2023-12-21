@@ -169,6 +169,7 @@ footer ul li {
     border-bottom: 4px solid rgb(59, 59, 92);
     margin: 2.3rem;
     text-decoration: none;
+    color: rgb(61, 60, 60);
 }
 
 .container div {
@@ -309,6 +310,10 @@ h3 ~ p {
 #react:hover {
     opacity: 80%;
     transition: 0.5s;
+}
+
+footer a {
+    color: rgb(61, 60, 60);
 }
 
 
